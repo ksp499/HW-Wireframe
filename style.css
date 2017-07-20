@@ -4,15 +4,15 @@ body {
 	font-size: 18px;
 	color: #777;
 	width: 960px;
+	text-align: center;
 }
 
 .basic {
 	background-color: #ebebeb;
 	width: 760px;
-	height: 60px;
 	margin-left: auto;
 	margin-right: auto;
-	text-align: center;
+	padding: 30px 0;
 }
 
 header {
@@ -27,8 +27,45 @@ nav {
 
 section {
 	background-color: #ebebeb;
+	float: left;
+	margin: 8px 8px 8px 100px;
+	width: 430px;
+	padding-top: 30px;
 }
 
 aside {
 	background-color: #ebebeb;
+	float: right;
+	margin: 8px 100px 8px 8px;
+	width: 314px;
+	height: 245.2px;
+	padding: 30px 0 0 0;
+}
+
+article {
+	background-color: #777;
+	color: #ebebeb;
+	margin: 30px 8px 8px 8px;
+	width: 382px;
+	padding: 16px;
+}
+
+h1 {
+	background-color: #ebebeb;
+	color: #777;
+	margin-top: 16px;
+	margin-bottom: 8px;
+	padding: 16px 0;
+}
+
+p {
+	background-color: #ebebeb;
+	color: #777;
+	padding: 16px 0;
+	margin: 0px;
+}
+
+footer {
+	background-color: #ebebeb;
+	margin: 8px 0;
 }
